@@ -1,0 +1,210 @@
+#title{
+    background-color: #ff4c68;
+}
+
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+/* barra navegação */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size:3rem !important;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 6rem;
+    margin-bottom: 5%;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    color: white !important;
+}
+
+.heading_title{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 4.5em;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+}
+
+/* primeira secção */
+
+#title{
+    position: relative;
+}
+
+#phone-image{
+    transform: rotate(25deg);
+    width: 20rem;
+    height: auto;
+    margin:0;
+    position: absolute;
+}
+
+.container-fluid{
+    padding: 3% 0 !important;
+}
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+/* segunda secção */
+
+
+#features .container{
+    padding: 7% 15%;    
+    position:relative;
+    background-color: white;
+    z-index:1;
+}
+
+#features h3{
+    font-weight: bold;
+}
+
+#features i{
+    color: #ef8172;
+    margin-bottom: 7px;
+}
+
+#features i:hover{
+    color: #ff4c68;
+}
+
+/* teceira secção */
+
+#testimonials{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#testimonials{
+    background-color:#ef8172 ;
+    text-align: center;
+    color: white;
+}
+
+#testimonials h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* quarta secção */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* quinta secção */
+
+#pricing{
+    margin: 7% 15%;
+}
+
+#pricing h2{
+    font-weight:bold;
+    font-size: 3rem;
+}
+
+#pricing .card{
+    margin: 3% 5%;
+}
+
+#pricing .card-header{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#pricing h2{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.precos-titulo{
+    margin-bottom: 5%;
+}
+
+/* sexta seccao */
+
+#cta{
+    background-color: #FF4C68;
+}
+
+#cta .container-fluid{
+    padding: 7% 15%;
+}
+
+#cta h3{
+    font-weight: bolder;
+    font-size: 4rem;
+    color: white;
+}
+
+#cta .btn{
+    margin:3% 1.5% 0 0;
+}
+
+.texto-cta{
+    margin:auto 0;
+}
+
+.titulo-cta{
+    width: 40%;
+    margin: auto;
+}
+
+
+/* seccao final */
+
+#footer{
+    background-color: white;
+    text-align: center;
+}
+
+#footer i{
+    margin: 10px 5px;
+}
+
+
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+        
+    }
+
+    #phone-image{
+        position: static;
+        transform: rotate(0);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
